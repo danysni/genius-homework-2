@@ -17,25 +17,35 @@
           <ul>
             <li><a class="link" href="#aboutus">Про нас</a></li>
             <li><a class="link" href="#whyus">Чому ми</a></li>
-            <li><a class="link" href="#ourprocedures">Наші процедури</a></li>
+            <li>
+              <a class="link" href="#ourprocedures">Наші процедури</a>
+            </li>
             <li><a class="link" href="#contacts">Контакти</a></li>
           </ul>
         </nav>
         <address>
-          <ul>
+          <ul class="header-social">
             <li>
-              <a href="#">
-                <!-- Phone-call icon -->
+              <a href="tel:+380960000007">
+                <svg class="icon">
+                  <use href="./sprite/symbol-defs.svg#sprite-phonecall"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <!-- Facebook icon -->
+                <svg class="icon">
+                  <use href="./sprite/symbol-defs.svg#sprite-facebook"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <!-- Instagram icon -->
+                <svg class="icon">
+                  <use
+                    href="./sprite/symbol-defs.svg#sprite-instagramlogo"
+                  ></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -46,26 +56,30 @@
       <section class="hero-section">
         <div class="container">
           <h2 class="second-hero-title">Косметологічна клініка</h2>
-          <h1 class="hero-title">beauty zone</h1>
+          <h1 class="hero-title">beauty<br />zone</h1>
           <button class="button" type="button">Замовити дзвінок</button>
-          <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+          <p>
+            Запишись та отримай безкоштовну<br />консультацію нашого косметолога
+          </p>
         </div>
       </section>
       <section id="aboutus" class="transformation-section">
         <div class="container">
           <div class="transformation-content">
             <h2 class="transformation-title">
-              Перевтілюйтесь в <span lang="en">beauty zone!</span>
+              Перевтілюйтесь <br />
+              в <span lang="en">Beauty Zone!</span>
             </h2>
             <p class="transformation-text">
               Наша косметологічна клініка пропонує вам професійні послуги з
               догляду за шкірою обличчя та тіла.
             </p>
             <p class="transformation-text">
-              B <span lang="en">beauty zone</span> ми гарантуємо найвищі
-              стандарти якості та приємний сервіс. Наші косметологічні процедури
-              та препарати допоможуть вам підтримувати свою красу та молодість.
-              З нами краса назавжди!
+              B
+              <span class="transformation-span" lang="en">Beauty Zone</span> ми
+              гарантуємо найвищі стандарти якості та приємний сервіс. Наші
+              косметологічні процедури та препарати допоможуть вам підтримувати
+              свою красу та молодість. З нами краса назавжди!
             </p>
           </div>
           <div class="transformation-images">
@@ -82,7 +96,9 @@
       </section>
       <section id="whyus" class="whychooseus-section">
         <div class="container">
-          <h2 class="whychooseus-title">Чому люди <span>обирають нас</span></h2>
+          <h2 class="whychooseus-title">
+            Чому люди<br /><span>обирають нас</span>
+          </h2>
           <ul class="whychooseus-list">
             <li>
               <article>
@@ -151,9 +167,13 @@
         <div class="container">
           <div>
             <a href="/">
-              <img src="./images/logo.png" alt="Логотип Beauty Zone" />
+              <img
+                class="footer-logo"
+                src="./images/logo.png"
+                alt="Логотип Beauty Zone"
+              />
             </a>
-            <nav>
+            <nav class="footer-nav">
               <ul>
                 <li><a href="#aboutus">Про нас</a></li>
                 <li><a href="#whyus">Чому ми</a></li>
@@ -163,23 +183,37 @@
             </nav>
           </div>
 
-          <address>
+          <address class="footer-address">
             <a href="tel:+380960000007">+ 38 (096) 000 00 07</a>
             <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
             <a href="https://share.google/goNVArZQcUe0hFXgG" target="_blank">
               Україна, м. Київ,<br />
               вул. Тараса Шевченка 5
             </a>
+            <div class="footer-social">
+              <a href="tel:+380960000007">
+                <svg class="icon">
+                  <use href="./sprite/symbol-defs.svg#sprite-phonecall"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="icon">
+                  <use href="./sprite/symbol-defs.svg#sprite-facebook"></use>
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="icon">
+                  <use
+                    href="./sprite/symbol-defs.svg#sprite-instagramlogo"
+                  ></use>
+                </svg>
+              </a>
+            </div>
           </address>
 
-          <div>
+          <div class="footer-copyright">
             <a href="/" target="_blank">Політика конфіденційності</a>
             <p>&copy; 2022 Дані захищені</p>
-            <div>
-              <a href="tel:+380960000007"></a>
-              <a href="#"></a>
-              <a href="#"></a>
-            </div>
           </div>
         </div>
       </footer>
