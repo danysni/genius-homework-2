@@ -55,12 +55,17 @@
     <main>
       <section class="hero-section">
         <div class="container">
-          <h2 class="second-hero-title">Косметологічна клініка</h2>
-          <h1 class="hero-title">beauty<br />zone</h1>
-          <button class="button" type="button">Замовити дзвінок</button>
-          <p>
-            Запишись та отримай безкоштовну<br />консультацію нашого косметолога
-          </p>
+          <div class="hero-logo-part">
+            <h2 class="second-hero-title">Косметологічна клініка</h2>
+            <h1 class="hero-title">beauty<br />zone</h1>
+            <button class="button modal-btn-open" type="button">
+              Замовити дзвінок
+            </button>
+            <p class="hero-p">
+              Запишись та отримай безкоштовну<br />консультацію нашого
+              косметолога
+            </p>
+          </div>
         </div>
       </section>
       <section id="aboutus" class="transformation-section">
@@ -249,6 +254,62 @@
           </div>
         </div>
       </footer>
+      <div class="backdrop is-hidden">
+        <div class="modal">
+          <button class="modal-btn-close" type="button">Close</button>
+          <h2>Замовити <br />Дзвінок</h2>
+          <p class="form-text">
+            Запишіться <span>безкоштовно</span> <br />та отримайте подарунок
+          </p>
+          <form name="contact-form" autocomplete="off" novalidate>
+            <div class="form-field">
+              <label class="form-label" for="user-name"
+                >Ваше ім'я та прізвище</label
+              >
+              <input
+                class="form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="user-tel"
+                >Ваш номер телефону</label
+              >
+              <input
+                class="form-input"
+                type="tel"
+                id="user-tel"
+                name="user-tel"
+              />
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="user-email"
+                >Ваша електронна пошта</label
+              >
+              <input
+                class="form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+              />
+            </div>
+            <button class="button form-button" type="submit">
+              Записатись безкоштовно
+            </button>
+            <p class="form-terms">
+              Натискаючи на кнопку я погоджуюсь <br />
+              <a class="form-terms-link" href="#"
+                >з політикою конфіденційності</a
+              >
+            </p>
+          </form>
+        </div>
+      </div>
     </main>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
